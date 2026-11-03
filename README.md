@@ -147,7 +147,7 @@ All pages share the same design: a dark background, green and orange accent colo
 
 The model is a **snowflake schema** built in Power BI's Model view. Instead of connecting every dimension directly to the fact tables, some dimensions (`customers` and `DimDate`) connect **through the `orders` table**, which then feeds the fact tables. This normalized, multi-level structure keeps each piece of information in one place and avoids repeating customer and date details on every row.
 ---
-<img width="1812" height="996" alt="snow schema" src="https://github.com/user-attachments/assets/3db1f406-0bc6-4c43-b790-c58d3bb399d1" />
+<img width="1709" height="742" alt="snow schema1" src="https://github.com/user-attachments/assets/14b36362-13f1-424c-860c-cec02d224bae" />
 ---
 | Role | Tables |
 
